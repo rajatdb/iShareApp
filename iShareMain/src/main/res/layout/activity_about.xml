@@ -72,7 +72,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="iShare Technologies is an internet corporation and it is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices." />
+                        android:text="iShare Technologies is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices." />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
