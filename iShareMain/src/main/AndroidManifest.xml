@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.rajat_pc.project_ishare">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.example.rajat_pc.project_ishare.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/iconishare"
+        android:label="iShare"
+        android:theme="@style/AppThemeNoTitleBar"
+        tools:node="replace">
+
+        <activity
+            android:name=".ui.main.WelcomeActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.main.IntroActivity" />
+        <activity android:name=".ui.main.PrefManager" />
+        <activity
+            android:name=".ui.main.FrontDisplay"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle">
+        </activity>
+        <activity
+            android:name=".ui.main.FrontNextActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle">
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:label="iShare" />
+        <activity
+            android:name=".ui.transfer.RadarScanActivity"
+            android:label="iShare" />
+        <activity
+            android:name=".ui.transfer.FileSelectActivity"
+            android:label="iShare" />
+        <activity
+            android:name=".ui.transfer.ReceiveActivity"
+            android:label="iShare" />
+        <activity
+            android:name=".ui.setting.AboutActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name=".ui.setting.FileBrowseActivity"
+            android:label="iShare" />
+        <activity
+            android:name=".ui.setting.BlueToothActivity"
+            android:label="iShare" />
+
+    </application>
+
+</manifest>

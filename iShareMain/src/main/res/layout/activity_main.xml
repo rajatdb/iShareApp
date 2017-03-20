@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajat_pc.project_ishare.ui.main.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bestpic6">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/activity_main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:theme="@style/AppTheme.AppBarOverlay"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="5">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Welcome"
+             android:textStyle="bold"
+             android:textSize="25dp"
+             android:padding="15dp"
+             android:id="@+id/welcome"
+             android:textColor="#200630"/>
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/iconishare"
+                android:scaleType="centerInside"
+                android:id="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button"
+                android:id="@+id/device"
+                android:layout_marginTop="30dp"
+                android:gravity="center_horizontal"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:id="@+id/activity_main_name_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#bdc3c7"
+                    android:textStyle="bold"
+                    android:ems="7"
+                    android:background="@drawable/rounded_share_next_appear"
+                    android:textSize="20dp"
+                    android:hint="@string/main_name_hint"
+                    android:textColorHint="#283593"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/main_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Send"
+                    android:textColor="#ecf0f1"
+                    android:textSize="18dp"
+                    android:id="@+id/activity_main_i_send"
+                    android:ems="7"
+                    android:elevation="@dimen/activity_vertical_margin"
+                    android:onClick="sendFile"
+                    android:textStyle="normal|bold"
+                    android:background="@drawable/rounded_send"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Receive"
+                    android:textColor="#ecf0f1"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:id="@+id/activity_main_i_receive"
+                    android:ems="7"
+                    android:background="@drawable/rounded_receive"
+                    android:layout_centerVertical="true"
+                    android:elevation="@dimen/activity_vertical_margin"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

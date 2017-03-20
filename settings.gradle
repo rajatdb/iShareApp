@@ -1,0 +1,1 @@
+include ':iShareMain', ':RadarScanner', ':RandomTextView', ':RippleView', ':RippleLayout', ':P2PManager'

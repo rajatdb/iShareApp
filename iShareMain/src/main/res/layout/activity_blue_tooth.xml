@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blue_tooth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bestpic7"
+    tools:context="com.example.rajat_pc.project_ishare.ui.setting.BlueToothActivity">
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="120dp"
+    android:id="@+id/linear">
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="100dp"
+      android:id="@+id/bluetooth"
+      android:scaleType="centerCrop"
+      android:src="@drawable/blue1"
+      android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Bluetooth"
+        android:textSize="55dp"
+        android:gravity="center_vertical"
+        android:textColor="#200630"
+        android:id="@+id/textblue"
+        android:textStyle="bold"
+        android:layout_alignRight="@id/bluetooth" />
+</LinearLayout>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="TURN ON"
+        android:id="@+id/button"
+        android:ems="5"
+        android:elevation="16dp"
+        android:background="@drawable/rounded_bt_buttons"
+        android:layout_below="@+id/linear"
+        android:clickable="true"
+        android:onClick="on" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="GET VISIBLE"
+        android:onClick="visible"
+        android:ems="8"
+        android:id="@+id/button2"
+        android:elevation="16dp"
+        android:background="@drawable/rounded_bt_buttons"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="LIST DEVICES"
+        android:onClick="list"
+        android:elevation="16dp"
+        android:id="@+id/button3"
+        android:ems="8"
+        android:background="@drawable/rounded_bt_buttons"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="TURN OFF"
+        android:onClick="off"
+        android:id="@+id/button4"
+        android:ems="5"
+        android:elevation="16dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_bt_buttons1"
+        android:layout_below="@+id/button"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paired devices:"
+        android:id="@+id/textView2"
+        android:textColor="#200630"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button4" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/textView2" />
+
+
+
+</RelativeLayout>
