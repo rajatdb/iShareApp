@@ -1,10 +1,10 @@
-<img src="https://github.com/rajatdubey619/iShareApp/blob/master/iconishare.png" alt="Screenshot1" width="200" height="200">
+<img src="https://github.com/rajatdubey619/iShareApp/blob/master/iconishare.png" alt="iShareLogo" width="100" height="100">iShare
 
 # iShareApp
 iShare App, is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices.
 
 # Screenshots
-<img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-164111.png" alt="Screenshot1" width="215" height="400"><img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-164100.png" alt="Screenshot1" width="215" height="400"><img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-164010.png" alt="Screenshot1" width="215" height="400"><img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-175558.png" alt="Screenshot1" width="215" height="400">
+<img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-164111.png" alt="Screenshot1" width="215" height="400"><img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-164100.png" alt="Screenshot2" width="215" height="400"><img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-164010.png" alt="Screenshot3" width="215" height="400"><img src="https://github.com/rajatdubey619/iShareApp/blob/master/layout-2017-03-20-175558.png" alt="Screenshot4" width="215" height="400">
 
 
 # Features
