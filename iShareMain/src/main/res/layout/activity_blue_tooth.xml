@@ -36,7 +36,7 @@
         android:textColor="#200630"
         android:id="@+id/textblue"
         android:textStyle="bold"
-        android:layout_alignRight="@id/bluetooth" />
+        android:layout_alignEnd="@id/bluetooth" />
 </LinearLayout>
 
     <Button
