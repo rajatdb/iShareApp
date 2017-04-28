@@ -39,7 +39,7 @@
          <TextView
              android:layout_width="match_parent"
              android:layout_height="wrap_content"
-             android:text="Welcome"
+             android:text="@string/activity_main_welcome"
              android:textStyle="bold"
              android:textSize="25dp"
              android:padding="15dp"
@@ -98,7 +98,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Send"
+                    android:text="@string/activity_main_send"
                     android:textColor="#ecf0f1"
                     android:textSize="18dp"
                     android:id="@+id/activity_main_i_send"
@@ -121,7 +121,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Receive"
+                    android:text="@string/activity_main_receive"
                     android:textColor="#ecf0f1"
                     android:textStyle="bold"
                     android:textSize="18dp"

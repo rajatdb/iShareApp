@@ -7,6 +7,6 @@
         android:id="@+id/float_img"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:contentDescription="iShare" />
+        android:contentDescription="@string/front_display_ishare_title" />
 
 </FrameLayout>

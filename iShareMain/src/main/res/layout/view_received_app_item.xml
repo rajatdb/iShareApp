@@ -12,7 +12,7 @@
         android:layout_height="40dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dip"
-        android:contentDescription="iShare"
+        android:contentDescription="@string/front_display_ishare_title"
         android:scaleType="fitCenter" />
 
     <TextView

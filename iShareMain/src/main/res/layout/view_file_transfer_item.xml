@@ -23,7 +23,7 @@
                 android:layout_height="40dp"
                 android:layout_centerVertical="true"
                 android:layout_margin="2dip"
-                android:contentDescription="iShare"
+                android:contentDescription="@string/front_display_ishare_title"
                 android:focusable="false" />
 
             <TextView
@@ -32,6 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="10dip"
+                android:layout_toEndOf="@id/file_image"
                 android:layout_toRightOf="@id/file_image"
                 android:maxLength="30"
                 android:maxLines="1"
@@ -43,6 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@id/file_image"
                 android:layout_toRightOf="@id/file_image"
                 android:paddingBottom="10dip"
                 android:textColor="#666666"
@@ -64,8 +66,7 @@
                 android:focusable="false"
                 android:maxLines="1"
                 android:textColor="#666666"
-                android:textSize="12sp">
-            </TextView>
+                android:textSize="12sp" />
         </RelativeLayout>
     </LinearLayout>
 

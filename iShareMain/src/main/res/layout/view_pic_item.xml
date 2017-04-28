@@ -22,7 +22,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:contentDescription="iShare"
+        android:contentDescription="@string/front_display_ishare_title"
         android:src="@mipmap/checked" />
 
 </RelativeLayout>

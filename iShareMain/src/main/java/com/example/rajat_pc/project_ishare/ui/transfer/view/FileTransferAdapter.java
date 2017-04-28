@@ -16,45 +16,39 @@ import com.example.rajat_pc.project_ishare.utils.DeviceUtils;
 import com.example.rajat_pc.p2pmanager.p2pconstant.P2PConstant;
 import com.example.rajat_pc.p2pmanager.p2pentity.P2PFileInfo;
 
+import java.util.Locale;
 
 
-public class FileTransferAdapter extends BaseAdapter
-{
+public class FileTransferAdapter extends BaseAdapter {
 
     Context context;
     LayoutInflater layoutInflater;
 
-    public FileTransferAdapter(Context context)
-    {
+    public FileTransferAdapter(Context context) {
         this.context = context;
         layoutInflater = layoutInflater.from(context);
     }
 
     @Override
-    public int getCount()
-    {
+    public int getCount() {
         return Cache.selectedList.size();
     }
 
     @Override
-    public Object getItem(int position)
-    {
+    public Object getItem(int position) {
         return Cache.selectedList.get(position);
     }
 
     @Override
-    public long getItemId(int position)
-    {
+    public long getItemId(int position) {
         return position;
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent)
-    {
+    public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder;
 
-        if (convertView == null)
-        {
+        if (convertView == null) {
             convertView = layoutInflater.inflate(R.layout.view_file_transfer_item, null);
             holder = new ViewHolder();
             holder.file_image = (ImageView) convertView.findViewById(R.id.file_image);
@@ -65,44 +59,34 @@ public class FileTransferAdapter extends BaseAdapter
             holder.trans_progress = (ProgressBar) convertView
                     .findViewById(R.id.trans_progress);
             convertView.setTag(holder);
-        }
-        else
-        {
+        } else {
             holder = (ViewHolder) convertView.getTag();
         }
 
         P2PFileInfo file = Cache.selectedList.get(position);
-        if (file != null)
-        {
-            if (file.type == P2PConstant.TYPE.APP)
-            {
+        if (file != null) {
+            if (file.type == P2PConstant.TYPE.APP) {
                 holder.file_image.setImageResource(R.mipmap.icon_apk);
-            }
-            else if (file.type == P2PConstant.TYPE.PIC)
-            {
+            } else if (file.type == P2PConstant.TYPE.PIC) {
                 holder.file_image.setImageResource(R.mipmap.icon_image);
             }
 
             holder.file_name.setText(file.name);
             holder.file_size.setText(DeviceUtils.convertByte(file.size));
-            holder.file_trans_speed.setText(file.percent + "%");
+            holder.file_trans_speed.setText(String.format(Locale.getDefault(), this.context.getResources().getString(R.string.progress_counter), file.percent));
             holder.trans_progress.setProgress(file.percent);
-            if (file.percent >= 100)
-            {
+            if (file.percent >= 100) {
                 holder.trans_progress.setVisibility(View.INVISIBLE);
                 holder.file_trans_speed.setText(context
                         .getString(R.string.file_has_completed));
                 holder.file_trans_speed.setTextColor(context.getResources().getColor(
-                    R.color.blue));
-            }
-            else
-            {
+                        R.color.blue));
+            } else {
                 holder.trans_progress.setVisibility(View.VISIBLE);
-                if (file.percent == 0)
-                {
+                if (file.percent == 0) {
                     holder.file_trans_speed.setText(context.getString(R.string.file_wait));
                     holder.file_trans_speed.setTextColor(context.getResources().getColor(
-                        R.color.green));
+                            R.color.green));
                 }
             }
         }
@@ -110,8 +94,7 @@ public class FileTransferAdapter extends BaseAdapter
         return convertView;
     }
 
-    private static class ViewHolder
-    {
+    private static class ViewHolder {
         public ImageView file_image;
         public TextView file_name;
         public TextView file_size;
