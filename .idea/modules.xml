@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/RandomTextView/RandomTextView.iml" filepath="$PROJECT_DIR$/RandomTextView/RandomTextView.iml" />
       <module fileurl="file://$PROJECT_DIR$/RippleLayout/RippleLayout.iml" filepath="$PROJECT_DIR$/RippleLayout/RippleLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/RippleView/RippleView.iml" filepath="$PROJECT_DIR$/RippleView/RippleView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iShareApp.iml" filepath="$PROJECT_DIR$/iShareApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/iShareMain/iShareMain.iml" filepath="$PROJECT_DIR$/iShareMain/iShareMain.iml" />
     </modules>
   </component>
