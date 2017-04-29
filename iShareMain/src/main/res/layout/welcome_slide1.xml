@@ -41,7 +41,7 @@
             android:layout_marginTop="30dp"
             android:textSize="24dp"
             android:id="@+id/isharetagline"
-            android:text="The More We Share \nThe More We Have..."
+            android:text="@string/welcome_slide1_text"
             android:textColor="#212121" />
     </RelativeLayout>
 

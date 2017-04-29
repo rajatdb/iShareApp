@@ -13,6 +13,9 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
         android:visibility="gone">
 
         <ImageView
@@ -20,6 +23,7 @@
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:visibility="gone" />
 
         <TextView
@@ -27,9 +31,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:textColor="@color/text_secondary"
-            android:textSize="18dp">
-        </TextView>
+            android:textSize="18dp"/>
     </LinearLayout>
 
     <TextView
@@ -45,8 +49,7 @@
         android:background="@drawable/rounded_share_next_appear"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="20dp">
-    </LinearLayout>
+        android:padding="20dp"/>
 
     <TextView
         android:layout_width="fill_parent"

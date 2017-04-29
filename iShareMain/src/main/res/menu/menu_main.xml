@@ -6,18 +6,18 @@
         android:id="@+id/menu_item_bluetooth_device"
         android:orderInCategory="100"
         android:icon="@drawable/bluetooth"
-        android:title="Bluetooth Device"
+        android:title="@string/menu_main_bluetooth_device"
         app:showAsAction="never" />
     <item
         android:id="@+id/menu_item_receive_directory"
         android:orderInCategory="100"
         android:icon="@drawable/history"
-        android:title="History"
+        android:title="@string/menu_main_history"
         app:showAsAction="never" />
     <item
         android:id="@+id/menu_item_about"
         android:orderInCategory="100"
-        android:title="About"
+        android:title="@string/menu_main_about"
         android:icon="@drawable/about"
         app:showAsAction="never">
     </item>

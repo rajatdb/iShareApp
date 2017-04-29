@@ -21,7 +21,7 @@
         android:layout_centerVertical="true"
         android:layout_alignParentBottom="true"
         android:gravity="bottom"
-        android:text="Please Wait..\nwhile initialising the iShare App.."
+        android:text="@string/front_display_please_wait"
         android:textSize="18dp" />
 
     <ProgressBar

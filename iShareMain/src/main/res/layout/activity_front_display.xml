@@ -29,7 +29,7 @@
             android:layout_centerVertical="true"/>
 
         <TextView
-            android:text="iShare"
+            android:text="@string/front_display_ishare_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView2"
@@ -51,7 +51,7 @@
         android:layout_weight="1">
 
         <TextView
-            android:text="fast file transfer app worldwide"
+            android:text="@string/front_display_fast_file_transfer_app_worldwide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView4"
@@ -70,7 +70,7 @@
             android:indeterminateDrawable="@drawable/loading1"/>
 
         <TextView
-            android:text="iShare © 2017"
+            android:text="@string/front_display_ishare_2017"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

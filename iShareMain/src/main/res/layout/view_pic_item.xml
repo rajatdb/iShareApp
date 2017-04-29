@@ -20,8 +20,9 @@
         android:layout_width="15dip"
         android:layout_height="15dip"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:contentDescription="iShare"
-        android:src="@mipmap/checked"></ImageView>
+        android:contentDescription="@string/front_display_ishare_title"
+        android:src="@mipmap/checked" />
 
 </RelativeLayout>

@@ -19,7 +19,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Let's Share"
+            android:text="@string/welcome_slide3_lets_share"
             android:id="@+id/letshare"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_title"
@@ -33,7 +33,7 @@
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
             android:id="@+id/letsharetagline"
-            android:text="Next door to open new World !!"
+            android:text="@string/welcome_slide3_next_door_to_open_new_world"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_desc" />

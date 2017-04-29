@@ -26,8 +26,9 @@
             android:layout_height="15dip"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:contentDescription="@string/app_name"
-            android:src="@mipmap/checked"></ImageView>
+            android:src="@mipmap/checked"/>
     </RelativeLayout>
 
     <TextView
