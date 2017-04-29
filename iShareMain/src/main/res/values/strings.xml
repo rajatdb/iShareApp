@@ -42,12 +42,10 @@
     <string name="no_received_content">No receiving content...</string>
     <string name="about_title">About</string>
     <string name="about_developer_title">Developer</string>
-    <string name="about_developer_description">Rajat Dubey\\nB.tech in Computer-Science\\n(Engineering College Bikaner)</string>
+    <string name="about_developer_description">Rajat Dubey - India, Rajasthan, Bikaner\\nSergio Leonardo Isasmendi - Buenos Aires, Argentina</string>
     <string name="about_description">iShare Technologies is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices.</string>
-    <string name="about_location_title">Location</string>
-    <string name="about_location_place">India, Rajasthan, Bikaner</string>
     <string name="about_thanks">Special Thanks</string>
-    <string name="about_thanks_description">I want to thanks for anyshare TEAMS(Anyshare 团队) that would be helpful for me to making this Project_iShare.</string>
+    <string name="about_thanks_description">We want to thanks for anyshare TEAMS(Anyshare 团队) that would be helpful for us to making this iShare.</string>
     <string name="bluetooth_title">Bluetooth</string>
     <string name="bluetooth_turn_on">TURN ON</string>
     <string name="bluetooth_get_visible">GET VISIBLE</string>
