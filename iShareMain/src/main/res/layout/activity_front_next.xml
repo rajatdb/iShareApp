@@ -9,7 +9,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/bestpic3"
-
     tools:context="com.example.rajat_pc.project_ishare.ui.main.FrontNextActivity">
 
 
@@ -22,7 +21,7 @@
         android:layout_alignParentBottom="true"
         android:gravity="bottom"
         android:text="@string/front_display_please_wait"
-        android:textSize="18dp" />
+        android:textSize="19dp" />
 
     <ProgressBar
         android:layout_width="40dp"

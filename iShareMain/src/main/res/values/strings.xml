@@ -42,7 +42,7 @@
     <string name="no_received_content">No receiving content...</string>
     <string name="about_title">About</string>
     <string name="about_developer_title">Developer</string>
-    <string name="about_developer_description">Rajat Dubey - India, Rajasthan, Bikaner\\nSergio Leonardo Isasmendi - Buenos Aires, Argentina</string>
+    <string name="about_developer_description">Rajat Dubey - India, Rajasthan, Bikaner\nSergio Leonardo Isasmendi - Buenos Aires, Argentina</string>
     <string name="about_description">iShare Technologies is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices.</string>
     <string name="about_thanks">Special Thanks</string>
     <string name="about_thanks_description">We want to thanks for anyshare TEAMS(Anyshare 团队) that would be helpful for us to making this iShare.</string>
@@ -53,9 +53,9 @@
     <string name="bluetooth_turn_off">TURN OFF</string>
     <string name="bluetooth_paired_devices">Paired devices:</string>
     <string name="front_display_ishare_title">iShare</string>
-    <string name="front_display_fast_file_transfer_app_worldwide">fast file transfer app worldwide</string>
+    <string name="front_display_fast_file_transfer_app_worldwide">file transfer application</string>
     <string name="front_display_ishare_2017">iShare © 2017</string>
-    <string name="front_display_please_wait">Please Wait.. while initialising the iShare App..</string>
+    <string name="front_display_please_wait">Please Wait..</string>
     <string name="activity_main_welcome">Welcome</string>
     <string name="activity_main_send">Send</string>
     <string name="activity_main_receive">Receive</string>
