@@ -4,10 +4,10 @@
 iShare App, is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices.
 
 ## WelcomeScreen
-<img src="https://github.com/rajatdb/iShareApp/blob/master/welcome_screen1.jpeg" alt="Screenshot1" width="250" height="460"> <img src="https://github.com/rajatdb/iShareApp/blob/master/welcome_screen2.jpeg" alt="Screenshot2" width="250" height="460"> <img src="https://github.com/rajatdb/iShareApp/blob/master/welcome_screen3.jpeg" alt="Screenshot3" width="250" height="460">
+<img src="https://github.com/rajatdb/iShareApp/blob/master/welcome_screen1.png" alt="Screenshot1" width="250" height="460"> <img src="https://github.com/rajatdb/iShareApp/blob/master/welcome_screen2.png" alt="Screenshot2" width="250" height="460"> <img src="https://github.com/rajatdb/iShareApp/blob/master/welcome_screen3.png" alt="Screenshot3" width="250" height="460">
 
 ## MainScreen
-<img src="https://github.com/rajatdb/iShareApp/blob/master/iShareStart.jpeg" alt="Screenshot4" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/MainDisplay.jpeg" alt="Screenshot5" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/Bluetooth.jpeg" alt="Screenshot6" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/AboutPage.jpeg" alt="Screenshot7" width="210" height="400">
+<img src="https://github.com/rajatdb/iShareApp/blob/master/iShareStart.png" alt="Screenshot4" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/MainDisplay.jpeg" alt="Screenshot5" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/Bluetooth.jpeg" alt="Screenshot6" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/AboutPage.png" alt="Screenshot7" width="210" height="400">
 
 ## Functionality
 <img src="https://github.com/rajatdb/iShareApp/blob/master/History.jpeg" alt="Screenshot7" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/SendItem.jpeg" alt="Screenshot4" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/RadarScan.jpeg" alt="Screenshot5" width="210" height="400"> <img src="https://github.com/rajatdb/iShareApp/blob/master/Hotspot.jpeg" alt="Screenshot6" width="210" height="400">
