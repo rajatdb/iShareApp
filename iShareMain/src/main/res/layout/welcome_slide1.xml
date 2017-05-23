@@ -4,43 +4,43 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="#e74c3c">
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="300dp"
-        android:id="@+id/rel1"
-        android:layout_weight="1">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scaleType="centerCrop"
-            android:src="@drawable/welcomeslides1"
-            android:id="@+id/wellogo" />
-
-
-    </RelativeLayout>
-
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/rel1"
-        android:id="@+id/rel2"
-        android:background="@drawable/rounded_welcome1"
-        android:layout_weight="1">
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ishare11" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textStyle="italic"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="30dp"
-            android:textSize="24dp"
-            android:id="@+id/isharetagline"
-            android:text="@string/welcome_slide1_text"
-            android:textColor="#212121" />
-    </RelativeLayout>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_slide1_ishare"
+            android:id="@+id/sharing"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_title"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/desc_padding"
+            android:paddingRight="@dimen/desc_padding"
+            android:id="@+id/sharingtagline"
+            android:text="@string/welcome_slide1_info"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/slide_desc" />
+
+    </LinearLayout>
+
+
 
 </RelativeLayout>

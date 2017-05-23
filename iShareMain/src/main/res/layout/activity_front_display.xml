@@ -69,16 +69,7 @@
             android:id="@+id/progress_bar"
             android:indeterminateDrawable="@drawable/loading1"/>
 
-        <TextView
-            android:text="@string/front_display_ishare_2017"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:id="@+id/textView3"
-            android:textSize="17dp"
-            android:textColor="#2c3e50" />
+
 
     </RelativeLayout>
 </RelativeLayout>
