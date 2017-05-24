@@ -8,7 +8,7 @@ import android.content.SharedPreferences;
 
 public class PreferenceUtils
 {
-    private static final String FILE_NAME = "melon_share";
+    private static final String FILE_NAME = "i_share";
 
     /**
      * @param context

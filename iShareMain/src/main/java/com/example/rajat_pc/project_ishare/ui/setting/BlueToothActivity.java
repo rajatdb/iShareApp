@@ -40,7 +40,7 @@ public class BlueToothActivity extends Activity {
 
         BA = BluetoothAdapter.getDefaultAdapter();
         lv = (ListView)findViewById(R.id.listView);
-        YoYo.with(Techniques.ZoomInUp).duration(4000).playOn(findViewById(R.id.bluetooth));
+        YoYo.with(Techniques.ZoomInUp).duration(4000).playOn(findViewById(R.id.tooth));
     }
 
     public void on(View v){

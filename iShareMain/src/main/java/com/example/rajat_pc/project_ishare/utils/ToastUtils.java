@@ -14,7 +14,7 @@ public class ToastUtils
 
     private static Toast toast = null;
 
-    /** show toast, keep only one instance, modify 2014-2-10 */
+    /** show toast, keep only one instance*/
     private static Handler handler = new Handler(Looper.getMainLooper());
 
     public static void showTextToast(Context context, String msg)

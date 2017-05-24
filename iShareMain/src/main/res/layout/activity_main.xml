@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bestpic6">
+        android:background="#2980b9">
 
         <android.support.design.widget.AppBarLayout
             android:layout_width="match_parent"
@@ -41,18 +41,17 @@
              android:layout_height="wrap_content"
              android:text="@string/activity_main_welcome"
              android:textStyle="bold"
-             android:textSize="25dp"
+             android:textSize="25sp"
              android:padding="15dp"
              android:id="@+id/welcome"
              android:textColor="#200630"/>
-
-
 
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:src="@drawable/iconishare"
                 android:scaleType="centerInside"
+                android:elevation="@dimen/item_touch_helper_max_drag_scroll_per_frame"
                 android:id="@+id/button"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true" />
@@ -70,13 +69,13 @@
                     android:id="@+id/activity_main_name_edit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textColor="#bdc3c7"
+                    android:textColor="#2980b9"
                     android:textStyle="bold"
                     android:ems="7"
                     android:background="@drawable/rounded_share_next_appear"
                     android:textSize="20dp"
                     android:hint="@string/main_name_hint"
-                    android:textColorHint="#283593"/>
+                    android:textColorHint="#FFFFFF"/>
 
             </android.support.design.widget.TextInputLayout>
 

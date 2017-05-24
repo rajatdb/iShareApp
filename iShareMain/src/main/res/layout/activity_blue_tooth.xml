@@ -10,34 +10,32 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/bestpic7"
+    android:background="#2980b9"
     tools:context="com.example.rajat_pc.project_ishare.ui.setting.BlueToothActivity">
 
 
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="120dp"
+    android:layout_centerHorizontal="true"
     android:id="@+id/linear">
-
-  <ImageView
-      android:layout_width="wrap_content"
-      android:layout_height="100dp"
-      android:id="@+id/bluetooth"
-      android:scaleType="centerCrop"
-      android:src="@drawable/blue1"
-      android:layout_weight="1"/>
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:text="@string/bluetooth_title"
-        android:textSize="55dp"
+        android:textSize="55sp"
+        android:textStyle="bold"
         android:gravity="center_vertical"
         android:textColor="#200630"
-        android:id="@+id/textblue"
-        android:textStyle="bold"
-        android:layout_alignRight="@id/bluetooth"
-        android:layout_alignEnd="@id/bluetooth" />
+        android:id="@+id/textblue" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tooth"
+        android:id="@+id/tooth"/>
+
 </LinearLayout>
 
     <Button
@@ -45,9 +43,8 @@
         android:layout_height="40dp"
         android:text="@string/bluetooth_turn_on"
         android:id="@+id/button"
-        android:ems="5"
         android:elevation="16dp"
-        android:background="@drawable/rounded_bt_buttons"
+        android:background="@drawable/rounded_send"
         android:layout_below="@+id/linear"
         android:clickable="true"
         android:onClick="on" />
@@ -57,10 +54,9 @@
         android:layout_height="40dp"
         android:text="@string/bluetooth_get_visible"
         android:onClick="visible"
-        android:ems="8"
         android:id="@+id/button2"
         android:elevation="16dp"
-        android:background="@drawable/rounded_bt_buttons"
+        android:background="@drawable/rounded_send"
         android:layout_alignBottom="@+id/button"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"/>
@@ -72,8 +68,7 @@
         android:onClick="list"
         android:elevation="16dp"
         android:id="@+id/button3"
-        android:ems="8"
-        android:background="@drawable/rounded_bt_buttons"
+        android:background="@drawable/rounded_send"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
@@ -86,7 +81,6 @@
         android:text="@string/bluetooth_turn_off"
         android:onClick="off"
         android:id="@+id/button4"
-        android:ems="5"
         android:elevation="16dp"
         android:layout_marginTop="15dp"
         android:background="@drawable/rounded_bt_buttons1"
@@ -100,7 +94,6 @@
         android:id="@+id/textView2"
         android:textColor="#200630"
         android:textSize="25dp"
-        android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/button4" />

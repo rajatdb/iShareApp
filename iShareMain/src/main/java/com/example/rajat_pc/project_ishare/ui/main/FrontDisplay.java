@@ -20,11 +20,11 @@ public class FrontDisplay extends Activity {
             @Override
             public void onTimeOut()
             {
-                startActivity(new Intent(FrontDisplay.this, FrontNextActivity.class));
+                startActivity(new Intent(FrontDisplay.this, MainActivity.class));
                 finish();
             }
         };
 
-        new OSTimer(null, timeout, 2 * 1000).start();
+        new OSTimer(null, timeout, 4 * 1000).start();
     }
 }

@@ -48,7 +48,7 @@
     <string name="about_description">iShare is a cross-platform sharing app. iShare eliminates the need for cables to enable wireless transfer of files between devices at rapid speeds. Users can share with friends as well as transfer their personal content on the go, between all of their devices.</string>
     <string name="about_thanks">Special Thanks</string>
     <string name="about_thanks_description">We want to thanks for anyshare TEAMS(Anyshare 团队) that would be helpful for us to making this iShare.</string>
-    <string name="bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_title">BLUE</string>
     <string name="bluetooth_turn_on">TURN ON</string>
     <string name="bluetooth_get_visible">GET VISIBLE</string>
     <string name="bluetooth_list_devices">LIST DEVICES</string>
