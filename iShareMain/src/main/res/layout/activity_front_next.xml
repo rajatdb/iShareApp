@@ -21,12 +21,12 @@
         android:layout_alignParentBottom="true"
         android:gravity="bottom"
         android:text="@string/front_display_please_wait"
-        android:textSize="19dp" />
+        android:textSize="19sp" />
 
     <ProgressBar
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/shareit"
+        android:src="@drawable/loading2"
         android:scaleType="centerInside"
         android:id="@+id/button"
         android:indeterminateDrawable="@drawable/ishareloading"
